@@ -152,13 +152,6 @@
         "description": "Subnet for the Untrust"
       }
     },
-    "subnet3Name": {
-      "type": "string",
-      "defaultValue": "DMZ",
-      "metadata": {
-        "description": "Subnet for the Restricted Servers"
-      }
-    },
     "subnet0Prefix": {
       "type": "string",
       "defaultValue": "10.0.100.0/24",
@@ -179,13 +172,6 @@
       "metadata": {
         "description": "Trust subnet CIDR"
       }
-    },
-    "subnet3Prefix": {
-      "type": "string",
-      "defaultValue": "10.0.103.0/24",
-      "metadata": {
-        "description": "Restricted subnet CIDR"
-
     },
     "subnet0StartAddress": {
       "type": "string",
@@ -208,12 +194,5 @@
         "description": "Untrust subnet start address"
       }
     },
-    "subnet3StartAddress": {
-      "type": "string",
-      "defaultValue": "10.0.103.4",
-      "metadata": {
-        "description": "Restricted subnet start address"
-      }
-    }
     }
   }
