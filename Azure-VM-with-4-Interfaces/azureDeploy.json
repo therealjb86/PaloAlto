@@ -329,7 +329,6 @@
                     "addressPrefix": "[parameters('subnet2Prefix')]"
                 }
             },
-            }]
         }
     }, {
         "apiVersion": "[variables('apiVersion')]",
