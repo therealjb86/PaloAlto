@@ -329,8 +329,7 @@
                     "addressPrefix": "[parameters('subnet2Prefix')]"
                 }
             },
-        }
-    }, {
+    {
         "apiVersion": "[variables('apiVersion')]",
         "type": "Microsoft.Network/networkInterfaces",
         "name": "[concat(variables('nicName'), '0')]",
