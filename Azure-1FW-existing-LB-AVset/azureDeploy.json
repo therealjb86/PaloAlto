@@ -169,19 +169,6 @@
         "description": "Name of FW1 MGMT Public Address"
       }
     },
-    "lbName": {
-      "type": "string",
-      "metadata": {
-        "description": "Load Balancer Name"
-      }
-    },
-    "lbbackenpool": {
-      "type": "string",
-      "defaultValue": "AS-FW",
-      "metadata": {
-        "description": "Load Balancer Backend Pool for Untrust Eth1 Interface"
-      }
-    },
     "nsgName": {
       "type": "string",
       "defaultValue": "DefaultNSG",
