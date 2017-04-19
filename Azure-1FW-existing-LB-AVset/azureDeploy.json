@@ -277,11 +277,6 @@
               "subnet": {
                 "id": "[variables('subnet1Ref')]"
               },
-              "loadBalancerBackendAddressPools": [
-                                {
-                                    "id": "[concat(resourceId('Microsoft.Network/loadBalancers', parameters('lbName')), '/backendAddressPools/', parameters('lbbackenpool'))]"
-                                }
-                            ]
             }
           }
         ]
